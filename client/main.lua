@@ -195,8 +195,6 @@ end
 
             if entityChanged then options:wipe() end
 
-            if debug and lastEntity > 0 then SetEntityDrawOutline(lastEntity, false) end
-
             hasTarget = false
         end
 
